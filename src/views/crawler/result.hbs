@@ -1,0 +1,15 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-12">
+			<a href="/" class="btn btn-default">Back to search</a>
+		</div>
+		{{#each data}}
+			<div class="col-xs-12">
+				<h3>
+					<a href="{{ this.link }}" target="_blank" style="color: #1a0dab">{{ this.header }}</a>
+				</h3>		
+				<hr>
+			</div>
+		{{/each}}
+	</div>
+</div>
